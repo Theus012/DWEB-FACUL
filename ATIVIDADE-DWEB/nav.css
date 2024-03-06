@@ -1,0 +1,87 @@
+.modifica:hover{
+    background-color: blue;
+    font-size:100px ;
+    color: yellow;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color:#f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: purple;
+    color: black;
+}
+
+/* DROP MENU */
+.link2{
+    background-color: #933;
+    border-radius: 20px;
+}
+
+div a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px;
+    display: inline-block;
+}
+
+ul{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.lista1{
+    display: inline-block;
+    color: white;
+}
+
+.lista1:hover{
+    background-color: #333;
+}
+
+.lista1:hover .lista2{
+    display: block;
+}
+
+.lista2{
+    position: absolute;
+    width: 200px;
+    display: none;
+}
+
+.lista-link{
+    background-color: rgb(47, 24, 24);
+    display: block;
+}
+
+.link{
+    display: block !important;
+}
+
+.lista-link:hover{
+    background: #667;
+}
+
+.fix{
+    width: 100%;
+    position: sticky;
+    top: 0;
+}
+.coluna{
+    float: left;
+    width: 33.33%;
+}
