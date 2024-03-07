@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo {
+    height: 120px;
+    width: auto;
+}
+
+
+.logo-container {
+    padding: 5px;
+    color: rgb(255, 187, 0);
+    display: flex;
+    align-items: center;
+
+
+}
+
+
+@keyframes blink {
+    0% {
+      text-shadow: 0px 0px 10px red;
+    }
+    25% {
+        text-shadow: 0px 0px 10px rgb(255, 187, 0);
+      }
+    50% {
+      text-shadow: 0px 0px 10px red;
+    }
+
+    75% {
+        text-shadow: 0px 0px 10px rgb(255, 187, 0);
+      }
+    100% {
+      text-shadow: 0px 0px 10px red;
+    }
+  }
+  
+  /* Aplicando a animação ao elemento */
+  .shadow-blink {
+    animation: blink 1s infinite; /* 1s é a duração da animação, 'infinite' faz a animação repetir infinitamente */
+  }
+
+.legend{
+    text-align: center;
+    color: red;
+    text-shadow: 0px 0px 4px red;
+    
+}
+
+.content {
+    height: auto;
+    width: 50%;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    margin:20px;
+    padding: 10px;
+}
+
+.mcqueen-image {
+    height: 120px;
+    width: auto;
+    float: left;
+    margin-left: 10px;  
+}
+
+.descricao{
+    height: auto;
+    width: 50%;
+    text-align: justify;
+    color: rgb(255, 255, 255);
+    margin:20px;
+    padding: 10px;
+}
+
+footer{
+    border-top: 5px rgb(243, 41, 41) solid;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
