@@ -85,3 +85,126 @@ ul{
     float: left;
     width: 33.33%;
 }
+========================================================================
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 0;
+    margin: 1;
+}
+
+header{
+    background-color: #666;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color:black ;
+    width: 100%;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+h1{
+    text-shadow: 0px 0px 5px rgb(122, 122, 45);
+    text-align: center;
+}
+
+div a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px;
+    display: inline-block;
+}
+
+ul{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+.lista1{
+    display: inline-block;
+    color: black;
+}
+
+.lista1:hover{
+    background-color: #000000;
+}
+
+.lista1:hover .lista2{
+    display: block;
+}
+
+.lista2{
+    width: 10%;
+    display: none;
+
+}
+
+.lista-link{
+    background-color: rgb(255, 0, 0);
+    display: block;
+}
+
+.link{
+    display: block !important;
+}
+
+.lista-link:hover{
+    background: #667;
+}
+
+.teste{
+    height: 50px;
+    width: 250px;
+    background-color: #000000;
+}
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+section h2 {
+    color: #333;
+}
+
+section p {
+    color: #666;
+}
+
+a.cta-button {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+a.cta-button:hover {
+    background-color: #555;
+}
