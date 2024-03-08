@@ -5,8 +5,12 @@ body {
     margin: 0;
 }
 
+#logo{
+    height: 250px;
+    width: 250px;
+}
 header {
-    background-color: #333;
+    background-color: #000;
     color: #fff;
     padding:20px 0;
     text-align: center;
@@ -28,7 +32,7 @@ header {
 }
 
 .topnav a:hover {
-    background-color: rgb(0, 0, 0);
+    background-color: #555;
 }
 
 h1 {
@@ -52,7 +56,6 @@ ul {
 }
 
 .lista1 {
-    display: inline-block;
     color: black;
     float: right;
 }
@@ -69,7 +72,6 @@ ul {
     width: 10%;
     display: none;
     
-
 }
 
 .lista-link {
@@ -112,7 +114,7 @@ section p {
     color: #666;
 }
 
-a.cta-button {
+a.link3 {
     display: inline-block;
     background-color: #333;
     color: #fff;
@@ -122,6 +124,33 @@ a.cta-button {
     transition: background-color 0.3s;
 }
 
-a.cta-button:hover {
+a.link3:hover {
     background-color: #555;
+}
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.footer h3,
+.footer h4 {
+    color: #fff;
+    text-shadow: 0px 0px 2px red;
+}
+
+.footer p,
+.footer ul {
+    color: #ccc;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
 }
