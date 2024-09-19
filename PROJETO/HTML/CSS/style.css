@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container-fluid{
+    background-color: #D6DEE2;
+    
+}
+
+body {
+    background-color: #5e5e5e !important;
+}
+
+.navbar {
+    background-color: #D6DEE2 !important; /* Exemplo: verde */
+}
+
+img {
+    width: 250px;
+    /* Preenche a largura da div */
+    height: 250px;
+    /* Preenche a altura da div */
+    object-fit: cover;
+    /* Cobre o espaço da div sem distorcer a imagem */
+    border-radius: 10px;
+}
